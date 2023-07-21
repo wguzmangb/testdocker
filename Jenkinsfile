@@ -33,7 +33,7 @@ pipeline {
             steps {
                 script{
                     sh ''' 
-                    docker build    -t ${name_imagen}:${tag_imagen} .
+                    docker build -t ${name_imagen} .
                     '''
                     }
                     
