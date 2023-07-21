@@ -1,6 +1,9 @@
+ FROM alpine:3.15
  FROM python:3.8.10
 
+
  WORKDIR /app
+ 
 
  COPY requirements.txt requirements.txt
 
