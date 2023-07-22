@@ -40,18 +40,7 @@ pipeline {
                 }                    
                                   
             }
-            stage('run') {
-            steps {
-                script{
-                    sh ''' 
-                        docker run -dp ${puerto_imagen}:80 --name ${name_final} ${name_imagen}:${tag_imagen}
- 
-                    '''
-                    }
-                    
-                }                    
-                                  
-            }
+           
             
           
         }   
