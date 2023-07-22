@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script{
                     sh ''' 
-                         docker stop ${name_final}
+                         
                     '''
                     }
                     
