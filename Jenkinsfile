@@ -33,7 +33,7 @@ pipeline {
             steps {
                 script{
                     sh ''' 
-                    docker build -t ${name_imagen} .
+                        docker build -t azul .
                     '''
                     }
                     
